@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التطبيقات</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Sarhom.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:#983E3E;">
+        <div class="container-fluid m-1">
+            <a class="navbar-brand" style="color: #fff; font-size: 30px;" href="index.html">سعّرهُم</a>
+            <input class="ser1 mt-1" type="search" placeholder="ابحث عن تطبيقك المفضل">
+            <button class="but1 mt-1"><a href="#" style="text-decoration: none; color: black;">ابحث</a></button>
+             <div class="d-flex align-items-center ms-3">
+                <a href="order.html" class="btn btn-outline-light me-5" style="font-size: 20px;" > رجوع ></a>
+             </div> 
+        </div>
+    </nav>
+   
+    <section class="apps">
+      <h1 class="appshead mt-5">أفضل تطبيق سعر</h1>
+    <div class="container mt-4">
+    <div class="card" style="width: 500px; ">
+      <img height="250px" src="data:image/png;base64,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" class="card-img-top" alt="...">
+      <div class="card-body me-5">
+        <h5 class="card-title" style="font-size: 30px; font-weight: 800;">ارخص التطبيقات ذا شفز</h5>
+        
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item me-4" style="font-size: 30px;">سعر التوصيل 9 ريال</li>
+        <li class="list-group-item me-4" style="font-size: 30px;">سعر الوجبة 24 ريال</li>
+        <li class="list-group-item me-4" style="font-size: 30px;"> المجموع 33 ريال</li>
+      </ul>
+      <div class="card-body " style="gap: 20px;">
+        <button style="background-color: #983E3E; border:none; border-radius: 25px; height: 75px; width: 230px;"><a target="_blank" href="https://thechefz.co/ar/" class="card-link" style="font-size: 24px; text-decoration: none; color: #fff; ">انقلني للتطبيق</a></button>
+         <button style="background-color: #983E3E; border: none; border-radius: 25px; height: 75px; width: 230px;"><a   href="order.html" class="card-link " style="font-size: 24px; text-decoration: none; color: #fff;">بغير الطلب</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="apps">
+  <h1 class="appshead mt-5">باقي التطبيقات</h1>
+<div class="container mt-5">
+<div class="card" style="width: 18rem; ">
+  <img  src="data:image/png;base64,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" class="card-img-top" alt="...">
+  <div class="card-body me-3">
+    <h5 class="card-title" style="font-size: 20px; font-weight: 800;">اغلى تطبيق هنقرستيشن</h5>
+    
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item " style="font-size: 20px;">سعر التوصيل 11 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;">سعر الوجبة 27 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;"> المجموع 38 ريال</li>
+  </ul>
+  <div class="card-body " style="gap: 20px;">
+    <button style="background-color: #983E3E; border:none; border-radius: 25px; height: 65px; width: 125px;"><a target="_blank" href="https://thechefz.co/ar/" class="card-link" style="font-size: 16px; text-decoration: none; color: #fff; ">انقلني للتطبيق</a></button>
+     <button style="background-color: #983E3E; border: none; border-radius: 25px; height: 65px; width: 125px;"><a   href="order.html" class="card-link " style="font-size: 16px; text-decoration: none; color: #fff;">بغير الطلب</a></button>
+  </div>
+</div>
+<div class="card" style="width: 18rem; ">
+  <img  src="data:image/png;base64,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" class="card-img-top" alt="...">
+  <div class="card-body me-4">
+    <h5 class="card-title" style="font-size: 23px; font-weight: 800;">اغلى التطبيقات جاهز</h5>
+    
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item " style="font-size: 20px;">سعر التوصيل 9 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;">سعر الوجبة 26 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;"> المجموع 35 ريال</li>
+  </ul>
+  <div class="card-body " style="gap: 20px;">
+    <button style="background-color: #983E3E; border:none; border-radius: 25px; height: 65px; width: 125px;"><a target="_blank" href="https://thechefz.co/ar/" class="card-link" style="font-size: 16px; text-decoration: none; color: #fff; ">انقلني للتطبيق</a></button>
+     <button style="background-color: #983E3E; border: none; border-radius: 25px; height: 65px; width: 125px;"><a   href="order.html" class="card-link " style="font-size: 16px; text-decoration: none; color: #fff;">بغير الطلب</a></button>
+  </div>
+</div>
+<div class="card" style="width: 18rem; ">
+  <img  src="data:image/png;base64,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" class="card-img-top" alt="...">
+  <div class="card-body me-3">
+    <h5 class="card-title" style="font-size: 22px; font-weight: 800;">اغلى التطبيقات مرسول</h5>
+    
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item " style="font-size: 20px;">سعر التوصيل 11 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;">سعر الوجبة 26 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;"> المجموع 37 ريال</li>
+  </ul>
+  <div class="card-body " style="gap: 20px;">
+    <button style="background-color: #983E3E; border:none; border-radius: 25px; height: 65px; width: 125px;"><a target="_blank" href="https://thechefz.co/ar/" class="card-link" style="font-size: 16px; text-decoration: none; color: #fff; ">انقلني للتطبيق</a></button>
+     <button style="background-color: #983E3E; border: none; border-radius: 25px; height: 65px; width: 125px;"><a   href="order.html" class="card-link " style="font-size: 16px; text-decoration: none; color: #fff;">بغير الطلب</a></button>
+  </div>
+</div>
+<div class="card" style="width: 18rem; ">
+  <img  src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+  <div class="card-body me-4">
+    <h5 class="card-title" style="font-size: 23px; font-weight: 800;">اغلى التطبيقات تو يو</h5>
+    
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item " style="font-size: 20px;">سعر التوصيل 11 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;">سعر الوجبة 25 ريال</li>
+    <li class="list-group-item " style="font-size: 20px;"> المجموع 36 ريال</li>
+  </ul>
+  <div class="card-body " style="gap: 20px;">
+    <button style="background-color: #983E3E; border:none; border-radius: 25px; height: 65px; width: 125px;"><a target="_blank" href="https://thechefz.co/ar/" class="card-link" style="font-size: 16px; text-decoration: none; color: #fff; ">انقلني للتطبيق</a></button>
+     <button style="background-color: #983E3E; border: none; border-radius: 25px; height: 65px; width: 125px;"><a   href="order.html" class="card-link " style="font-size: 16px; text-decoration: none; color: #fff;">بغير الطلب</a></button>
+  </div>
+</div>
+</div>
+<h4 class=" mt-5 mb-5" style="display: flex; justify-content: center; align-items: center; color: #983E3E;"><button>المزيد من التطبيقات</button></h4>
+</section>
+
+    
+      <footer class="pt-lg-10 pt-5 footer mt-5" style="background-color: #983E3E;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                  <!-- about company -->
+              <div class="mb-4">
+                <a href="index.html" style="text-decoration: none; color: #fff; font-weight: 700; font-size: 30px;">سعّرهُم</a>
+                <div class="mt-4" style="color: #fff;">
+                  <p> تواصل معنا عبر قنوات التواصل الاجتماعية نسعد بخدمتكم</p>
+                     <!-- social media -->
+                  <div class="fs-4 mt-4" >
+                    <!--Facebook-->
+                    <a href="#" class=" me-2" style="color: #fff;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook ms-1" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                  </a>
+                  <!--Twitter-->
+                  <a href="#" class=" me-2" style="color: #fff;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter ms-1 " viewBox="0 0 16 16">
+                          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                  </a>
+    
+                  <!--GitHub-->
+                  <a href="#" class="" style="color: #fff;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-instagram me-1" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="offset-lg-1 col-lg-2 col-md-3 col-6">
+              <div class="mb-4">
+                    <!-- list -->
+                <h3 class="fw-bold mb-3 me-5" style="color: #fff;">شركتنا</h3>
+                <ul class="list-unstyled nav nav-footer flex-column nav-x-0 ms-5">
+                  <li><a href="#" class="nav-link" style="color: #fff;">نبذة عنا</a></li>
+                  <li><a href="#" class="nav-link" style="color: #fff;">تاريخنا</a></li>
+                  <li><a href="#" class="nav-link" style="color: #fff;">تواصل</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-6">
+              <div class="mb-4">
+                    <!-- list -->
+                <h3 class="fw-bold mb-3" style="color: #fff;">الدعم</h3>
+                <ul class="list-unstyled nav nav-footer flex-column nav-x-0 " style="margin-right: -70px;">
+                  <li><a href="#" class="nav-link" style="color: #fff;">المساعدة والدعم</a></li>
+                  <li><a href="#" class="nav-link"style="color: #fff;">انضم لنا</a></li>
+                </ul>
+    
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+                  <!-- contact info -->
+              <div class="mb-4">
+                <h3 class="fw-bold mb-3" style="color: #fff;">كن على تواصل</h3>
+                <p style="color: #fff;">الرياض العليا,عنوان بريدي14234</p>
+                <p class="mb-1" style="color: #fff;">إيميل:<a href="#" style="text-decoration: none; color: #fff;">support@Sarhom.com</a></p>
+                <p style="color: #fff;">رقم هاتف: (+966)112076656</p>
+    
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center g-0 border-top py-2 mt-6">
+            <!-- Desc -->
+            <div class="col-lg-4 col-md-5 col-12" style="color: #fff;">
+                <span>© <span id="copyright2">
+                  <script>document.getElementById('copyright2').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+              </span>جميع الحقوق محفوظة @ سعّرهُم</span>
+                </div>
+    
+              <!-- Links -->
+            <div class="col-12 col-md-7 col-lg-8 d-md-flex justify-content-end" style="color: #fff;">
+                <nav class="nav nav-footer">
+                    <a class="nav-link ps-0" style="color: #fff;" href="#"> الدعم</a>
+                    <a class="nav-link px-2 px-md-3" style="color: #fff;" href="#">الشروط</a>
+    
+                    <a class="nav-link" style="color: #fff;" href="#">القوانين</a>
+                </nav>
+            </div>
+        </div>
+        </div>
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

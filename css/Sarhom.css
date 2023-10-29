@@ -1,0 +1,173 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    background-color: rgb(237, 240, 244);
+}
+
+ .btn:hover{
+    background-color:#fff;
+    
+}
+
+.hedarphto {
+    background-size: cover;
+    position: relative;
+  }
+  .hedarphto .overlay {
+    position: absolute;
+    left: 700px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.539);
+  }
+  .hedarphto .photo {
+    width: 100%;
+    
+  }
+  .hedarphto .text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0px;
+    color:#fff;
+    
+  }
+  .hedarphto .text h2 {
+    margin: 0 0px 30px;
+    text-transform: uppercase;
+    font-weight:900;
+    margin-right: 80px;
+    font-size:50px;
+  }
+  .hedarphto .text p {
+    margin: 0 0 40px;
+    text-transform: uppercase;
+    font-weight:500;
+    margin-right: 80px;
+    font-size:25px;
+  }
+  
+  .hedarphto .text button {
+    background-color:#983e3e;
+    color: #fff;
+    padding: 10px 50px;
+    font-size:20px;
+    
+    border: none;
+    border-radius: 50px;
+  }
+  
+
+
+  .hedarphto .text input {
+    width: 350px;
+    background-color:#ffffff;
+    color: black;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-right: 80px;
+    margin-bottom: 7px;
+    border: none;
+    text-transform: uppercase;
+    
+  }
+  
+  .thirdsec h1{
+
+    display: flex;
+  align-content: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 48px;
+  }
+   .thirdsec .restront{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+
+
+  .meals h1{
+
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   font-weight: 900;
+   font-size: 35px;
+    
+  }
+  .meals .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .meals h4 button{
+
+    font-weight: 900;
+    font-size: 30px;
+    background-color: #983e3e;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 70px;
+   }
+ 
+  
+   .apps h1{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 35px;
+   }
+
+   .apps .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   }
+
+   .ser1{
+    width: 350px;
+    background-color:#ffffff;
+    color: black;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-right: 322px;
+    margin-bottom: 7px;
+    border: none;
+    text-transform: uppercase;
+   }
+
+  .but1 {
+    background-color:#ffffff;
+    color: #983E3E;
+    padding: 10px 50px;
+    font-size:20px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .apps h4 button{
+    font-weight: 900;
+    font-size: 30px;
+    background-color: #983e3e;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 70px;
+   }
+
+   
+  
